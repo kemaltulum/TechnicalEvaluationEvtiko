@@ -1,0 +1,32 @@
+.container{
+  width: 90%;
+  margin: 24px 5% 24px 5%;
+}
+
+.filter-container{
+  display: none;
+}
+
+@media screen and (min-width: 767px){
+  .filter-container{
+    display: block;
+    width: 100%;
+    text-align: right;
+  }
+
+  .filter-container select{
+    font-size: 1.1em;
+    height: 32px;
+    max-width: 50%;
+    background-color: white;
+    border: 2px solid blue;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
